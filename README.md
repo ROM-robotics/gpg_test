@@ -43,7 +43,7 @@ gpg --list-public-keys
 // pub rsa xxx FGDDFG334DFGFFDG
 gpg --output yourpubkey.gpg --export FGDDFG334DFGFFDG
 // gpg --export blabla@gmail.com > youpubkey.gpg
-
+// gpg --export-secret-keys --armor > secret.gpg.key
 // gpg --armor --export uid > yourpubkey.asc
 // cat yourpubkey.asc
 
